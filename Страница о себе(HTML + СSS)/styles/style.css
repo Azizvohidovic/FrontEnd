@@ -1,0 +1,188 @@
+.main_container
+{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.content_container 
+{
+    margin: 0 auto;
+    width: 1200px;
+    clear: both;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.left {
+    width: 400px;
+    float: left;
+    clear: both;
+}
+
+.right {
+    width: 800px;
+    float: right;
+}
+
+.image {
+    height: 350px;
+    width: 330px;
+    padding-top: 100px;
+    margin-bottom: 45px;
+    border-radius: 5px
+}
+
+.writers {
+    
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(21, 169, 140);
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 15px
+        
+}
+
+.writer_list {
+    font-size: 19px;
+    line-height: 36px;
+    color: rgb(85, 85, 85);
+    font-family: "Georgia";
+    list-style-position: inside;
+    width: 300px;
+    margin-bottom: 0px
+
+}
+
+.quote {
+    height: 250px;
+    width: 500px;
+    background: url(../images/quotes.png);
+    background-repeat: no-repeat;
+    float: left;
+    background-position: top;
+    background-position: left;
+    padding-top: 80px;
+    padding-left: 60px
+}
+
+.quote_text {
+    width: 500px;
+    font-size: 28px;
+    line-height: 42px;
+    color: rgb(132, 132, 132);
+    font-family: "Georgia";
+    font-style: italic;
+    margin-top: 145px;
+
+}
+
+.author {
+    font-size: 16px;
+    line-height: 42px;
+    color: rgb(51, 51, 51);
+    font-family: "Open Sans";
+    font-weight: bold;
+    padding-right: 850px;
+    width: 200px;
+    margin-top: 0px
+}
+
+.sidebar {
+    clear: left;
+    float: left;
+
+}
+
+ol,
+ul {
+    padding: 0;
+
+}
+
+
+.text h1 {
+    width: 400px;
+    font-size: 48px;
+    line-height: 42px;
+    color: rgb(51, 51, 51);
+    font-family: "Open Sans";
+    font-weight: bold;
+    float: left;
+    margin-top: 170px;
+    margin-bottom: 30px;
+    clear: both;
+}
+
+.name:after {
+    content: "";
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: #45c3a9;
+    margin-top: 235px;
+    display: block;
+    margin-bottom: 10px
+}
+
+.text {
+    width: 800px;
+    float: right;
+
+}
+
+.text_about_me {
+    width: 561px;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(85, 85, 85);
+    font-family: "Georgia";
+    padding-top: 30px;
+    clear: both;
+    margin-bottom: 50px;
+        
+}
+
+.my_hobby_title {
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51, 51, 51);
+    font-family: "Open Sans";
+    margin: 20px 0;
+}
+
+.my_hobby {
+    width: 562px;
+    margin-bottom: 40px;
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(85, 85, 85);
+    font-family: "Georgia";
+}
+
+.link {
+    font-size: 19px;
+    line-height: 32px;
+    color: rgb(21, 169, 139);
+    font-family: "Georgia";
+    text-decoration: none
+}
+
+.link:hover {
+    text-decoration: underline;
+
+}
+
+.arrow {
+    color: rgb(21, 169, 139);
+}
+
+.arrow:hover {
+    text-decoration: none;
+    color: rgb(21, 169, 139);
+}
